@@ -357,4 +357,4 @@ def update_linesChart2(exchange, leverage, start_date, end_date):
    return [figure]
 
 if __name__ == "__main__":
-    app.run_server(debug=True,host='0.0.0.0')
+    app.run_server(host='0.0.0.0')
