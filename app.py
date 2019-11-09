@@ -342,7 +342,7 @@ def update_linesChart2(exchange, leverage, start_date, end_date):
    data = [
        go.Scatter(
            x=dff['Entry time'],
-           y=dff['BTC Price'],
+           y=dff['Exit balance'],
            name='Balance over time'
        ),
    ]
